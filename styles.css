@@ -35,7 +35,8 @@ a {
   width: 6.25rem;
   height: 6.25rem;
   background-color: none;
-  background-image: url(Images/logosmall.png);
+  background-size: cover;
+  background-image: url(logo/tomato_head-2.jpg);
   margin: auto;
 }
 
