@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>media Queries</title>
+    <style>
+      /* mobile first design */
+
+      body {
+        background-color: steelblue;
+      }
+
+      h1,
+      h2 {
+        color: white;
+        text-align: center;
+      }
+
+      /* tablet and desktop design */
+      @media screen and (min-width: 780px) {
+        body {
+          background-color: crimson;
+        }
+
+        h1,
+        h2 {
+          color: black;
+        }
+      }
+
+      @media screen and (min-width: 960px) {
+        body {
+          background-color: aquamarine;
+        }
+
+        h1,
+        h2 {
+          color: burlywood;
+        }
+
+        @media screen and (min-width: 1280px) {
+          body {
+            background-color: antiquewhite;
+          }
+
+          h1,
+          h2 {
+            color: brown;
+          }
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Media Queries</h1>
+    <h2>tyler seare</h2>
+  </body>
+</html>
